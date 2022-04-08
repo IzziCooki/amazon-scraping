@@ -26,4 +26,6 @@ Link is the key and website is the actually website link. Do not chage link.
 
 Example: https://ibb.co/6PvSCWN
 
+send the request to "http://localhost:5000/amazon"
+
 send the request and you will get sent back data on the amazon product. It may take a couple trys to send the post request.
