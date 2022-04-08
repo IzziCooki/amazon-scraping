@@ -5,12 +5,6 @@ from amazon import scrape_amazon
 app = Flask(__name__)
 
 
-@app.route('/<website>')
-def get_data(website):
-
-    return website
-
-
 @app.route('/amazon', methods=['GET', 'POST'])
 def amazon():
     if request.method == 'POST':
